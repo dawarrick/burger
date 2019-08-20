@@ -6,6 +6,8 @@
 #### Eat-Da-Burger is a Node.js application using the Express web application framework, MySQL, Express-Handlebars, and Object Relational Mapping (ORM) for SQL processing.
 #### It is deployed on Heroku at https://git.heroku.com/pure-chamber-83496.git and uses the JawsDB remote access add-on for database connectivity.
 
+### How it works
+
 * The user will be shown a list of burgers in the database.
 
 * If there is a button labeled "Devour It" next to the burger (left side of the screen), then it has not yet been eaten.  
@@ -13,7 +15,7 @@
 
 * There is an entry field and an "Add Burger" button at the bottom of the screen to allow you to add new burgers.
 
-* You may ask yourself, what exactly is the point of this game?? I too had that thought...
+* You may ask yourself, what exactly is the point of this game?? I too had that question...
 
 * The purpose was for me to learn how to get all these new technologies to work together, which was a challenge, so they kept the app simple.
 
