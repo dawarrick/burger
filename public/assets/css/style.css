@@ -1,11 +1,68 @@
+h1 {
+  text-align:center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
+  height: 2rem;
   background: #faebd7;
+}
+
+input {
+  height:2rem;
+  width: 20rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    width:150px;
+  }
+
+.noteaten {
+  display:block;
+  list-style-type:none;
+  float:left;
+  background:blue; 
+  width:30%;
+  height:50vh;
+  padding-left: 20%;
+}
+
+.eaten {
+  display:block;
+  list-style-type:none;
+  height:50vh;
+  float:right;
+  background:red; 
+  width:30%;
+  padding-right: 20%;
 }
 
 .label {
   font-weight: bold;
+}
+
+.devour {
+  float:right;
+  width:100px;
+  height: 2rem;
+  background-color:green;
+  /*margin-left:25px;*/
+}
+
+.addburger {
+  display:block;
+  padding-top: 100px;
+  float:none;
+  text-align:center;
+  background-color: yellow;
+  width:100%;
+  /*padding-left: 20%;*/
 }
 
 .create-update-form {

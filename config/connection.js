@@ -1,13 +1,20 @@
-// Set up MySQL connection.
-var mysql = require("mysql");
+// Set up MySQL connection to work locally and on Heroku
 
-var connection = mysql.createConnection({
+var mysql = require("mysql");
+var connection;
+
+if (process.env.JAWSDB_URL) {
+  connection=mysql.createConnection(process.env.JAWSDB_URL);
+}
+else {
+ connection = mysql.createConnection( {
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "yourpasswordhere",
+  password: "goColorado3Richmond",  // Your password
   database: "burgers_db"
 });
+};
 
 // Make connection.
 connection.connect(function(err) {
