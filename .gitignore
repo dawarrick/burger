@@ -1,6 +1,8 @@
 node_modules
 homework_instructions.md
-Rconnection.js
+connection.js
+config.json
 capture.PNG
+jaws.png
 .env
 MySQLHerokuDeploymentProcess.pdf
