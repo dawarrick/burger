@@ -4,7 +4,7 @@
 ### Developed by Deb Warrick https://debwarrick.com
 
 #### Eat-Da-Burger is a Node.js application using the Express web application framework, MySQL, Express-Handlebars, and Object Relational Mapping (ORM) for SQL processing.
-#### It is deployed on Heroku at https://git.heroku.com/pure-chamber-83496.git and uses the JawsDB remote access add-on for database connectivity.
+#### It is deployed on Heroku at https://pure-chamber-83496.herokuapp.com and uses the JawsDB remote access add-on for database connectivity.
 
 ### How it works
 
