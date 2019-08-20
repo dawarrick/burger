@@ -10,6 +10,8 @@ app.use(express.static("public"));
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+//add the location for the images
 app.use(express.static('public/assets/images')); 
 
 // Set Handlebars.
